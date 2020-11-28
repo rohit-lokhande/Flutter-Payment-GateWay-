@@ -54,7 +54,7 @@ class _RazorpayPaymentGatewayState extends State<RazorpayPaymentGateway> {
 
   void _checkout() async {
     var options = {
-      'key': 'rzp_test_eqitAmd1WyBqCG',
+      'key': 'rzp_test_eqitAmd1WyBqCG' , // change this test key with your account
       'amount': 500,
       'name': 'Test In Corp..',
       'description': 'LapTop',
